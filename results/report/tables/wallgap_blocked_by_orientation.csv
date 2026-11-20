@@ -1,0 +1,13 @@
+wall_orientation,condition,success
+diagonal,degenerate,8.271298593879239
+diagonal,full,16.459884201819687
+diagonal,reward_only,9.263854425144748
+diagonal,sensing_only,15.2191894127378
+horizontal,degenerate,14.715447154471544
+horizontal,full,24.959349593495936
+horizontal,reward_only,16.016260162601625
+horizontal,sensing_only,23.2520325203252
+vertical,degenerate,6.3247863247863245
+vertical,full,9.82905982905983
+vertical,reward_only,6.581196581196582
+vertical,sensing_only,8.717948717948717

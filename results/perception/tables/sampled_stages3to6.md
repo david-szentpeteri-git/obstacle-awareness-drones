@@ -1,0 +1,10 @@
+| mode          | condition    |    n |   success |   obstacle_hit |   boundary_hit |   timeout |
+|:--------------|:-------------|-----:|----------:|---------------:|---------------:|----------:|
+| deterministic | degenerate   | 2400 |      74.5 |           21.1 |            4.3 |       0.0 |
+| deterministic | full         | 2400 |      79.0 |           18.4 |            2.4 |       0.2 |
+| deterministic | reward_only  | 2400 |      72.8 |           20.0 |            7.1 |       0.0 |
+| deterministic | sensing_only | 2400 |      79.8 |           18.7 |            1.5 |       0.0 |
+| sampled       | degenerate   | 2400 |      60.7 |           25.7 |           13.6 |       0.0 |
+| sampled       | full         | 2400 |      68.9 |           22.1 |            9.0 |       0.0 |
+| sampled       | reward_only  | 2400 |      63.2 |           23.2 |           13.7 |       0.0 |
+| sampled       | sensing_only | 2400 |      61.9 |           23.9 |           14.2 |       0.0 |

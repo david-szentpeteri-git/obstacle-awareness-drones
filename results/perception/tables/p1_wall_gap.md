@@ -1,0 +1,10 @@
+| suite    | scope        | pair      | input   |    n |   success |   obstacle_hit |   boundary_hit |   timeout |   blind_success |   advantage_over_blind |   p_vs_blind |   change_vs_normal |   p_vs_normal |
+|:---------|:-------------|:----------|:--------|-----:|----------:|---------------:|---------------:|----------:|----------------:|-----------------------:|-------------:|-------------------:|--------------:|
+| wall_gap | all settings | goal-only | normal  | 6000 |      44.0 |           52.1 |            3.8 |       0.1 |            37.4 |                    6.6 |          0.0 |                0.0 |           1.0 |
+| wall_gap | all settings | goal-only | v2b     | 6000 |      39.5 |           59.5 |            0.9 |       0.0 |            37.4 |                    2.1 |          0.0 |               -4.5 |           0.0 |
+| wall_gap | all settings | shaped    | normal  | 6000 |      40.7 |           50.2 |            7.1 |       2.0 |            35.7 |                    5.0 |          0.0 |                0.0 |           1.0 |
+| wall_gap | all settings | shaped    | v2b     | 6000 |      38.2 |           59.5 |            1.4 |       0.9 |            35.7 |                    2.5 |          0.0 |               -2.5 |           0.0 |
+| wall_gap | line blocked | goal-only | normal  | 3609 |      15.8 |           82.3 |            1.8 |       0.0 |             9.8 |                    6.0 |          0.0 |                0.0 |           1.0 |
+| wall_gap | line blocked | goal-only | v2b     | 3609 |       8.4 |           91.5 |            0.1 |       0.0 |             9.8 |                   -1.4 |          0.0 |               -7.4 |           0.0 |
+| wall_gap | line blocked | shaped    | normal  | 3609 |      17.2 |           78.8 |            3.3 |       0.7 |            10.7 |                    6.5 |          0.0 |                0.0 |           1.0 |
+| wall_gap | line blocked | shaped    | v2b     | 3609 |       9.1 |           90.3 |            0.4 |       0.2 |            10.7 |                   -1.6 |          0.0 |               -8.1 |           0.0 |

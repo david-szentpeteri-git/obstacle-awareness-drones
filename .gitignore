@@ -1,0 +1,16 @@
+#LOCAL ENVIRONMENTS & CACHES
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+#OUTPUTS OF NEW RUNS (SHIPPED models/ & results/ TREES ARE COMMITTED)
+models/default/
+models/smoke/
+results/default/
+results/smoke/
+results/*/logs/
+results/*/eval/_part_*/
+source_snapshot.zip
+tb_logs/
+*.log

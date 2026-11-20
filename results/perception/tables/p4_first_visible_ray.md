@@ -1,0 +1,13 @@
+| wall_orientation   | first_visible_ray   |   worlds |
+|:-------------------|:--------------------|---------:|
+| diagonal           | front               |       35 |
+| diagonal           | front_down          |       46 |
+| diagonal           | front_up            |       41 |
+| diagonal           | left                |       56 |
+| diagonal           | right               |       52 |
+| horizontal         | front               |       57 |
+| horizontal         | front_down          |       90 |
+| horizontal         | front_up            |      103 |
+| vertical           | front               |       19 |
+| vertical           | left                |       89 |
+| vertical           | right               |       75 |

@@ -1,0 +1,41 @@
+{
+  "preset": "compact",
+  "stage6": {
+    "scenario": "stage6_6s3d",
+    "seed": 756803546,
+    "blocker_on_line": true,
+    "full_s0_reached_and_degenerate_s0_failed": true,
+    "drone": [
+      -0.301,
+      -1.042,
+      0.622
+    ],
+    "goal": [
+      0.549,
+      1.4,
+      1.376
+    ],
+    "rays_hitting_obstacle": 1,
+    "obstacles": 9
+  },
+  "wall_gap": {
+    "scenario": "wall_s2_x50",
+    "seed": 707355862,
+    "drone": [
+      0.85,
+      -0.974,
+      0.717
+    ],
+    "goal": [
+      -1.4,
+      0.682,
+      1.059
+    ],
+    "rays_hitting_obstacle": 2,
+    "obstacles": 1,
+    "wall_orientation": "horizontal",
+    "wall_gap_mode": "flush_lo",
+    "wall_coverage": 0.5,
+    "wall_opening_m": 0.92
+  }
+}

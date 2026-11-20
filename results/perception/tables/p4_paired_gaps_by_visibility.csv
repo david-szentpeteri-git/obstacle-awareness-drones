@@ -1,0 +1,17 @@
+pair,orientation,visible,n,success_a,success_b,gap,only_a,only_b,p
+goal-only,all,visible,1989,22.8255,13.5747,9.2509,312,128,0.0
+goal-only,vertical,visible,549,11.6576,7.8324,3.8251,46,25,0.017
+goal-only,horizontal,visible,750,31.6,18.6667,12.9333,154,57,0.0
+goal-only,diagonal,visible,690,22.1739,12.6087,9.5652,112,46,0.0
+goal-only,all,not_visible,1620,7.284,5.2469,2.037,83,50,0.0053
+goal-only,vertical,not_visible,621,6.1192,4.9919,1.1272,25,18,0.3604
+goal-only,horizontal,not_visible,480,10.2083,8.5417,1.6667,34,26,0.3663
+goal-only,diagonal,not_visible,519,5.973,2.5048,3.4682,24,6,0.0014
+shaped,all,visible,1989,23.9819,15.5857,8.3962,302,135,0.0
+shaped,vertical,visible,549,10.929,8.9253,2.0036,41,30,0.2351
+shaped,horizontal,visible,750,33.7333,21.7333,12.0,152,62,0.0
+shaped,diagonal,visible,690,23.7681,14.2029,9.5652,109,43,0.0
+shaped,all,not_visible,1620,8.8889,4.6914,4.1975,118,50,0.0
+shaped,vertical,not_visible,621,8.8567,4.5089,4.3478,43,16,0.0006
+shaped,horizontal,not_visible,480,11.25,7.0833,4.1667,44,24,0.0205
+shaped,diagonal,not_visible,519,6.7437,2.6975,4.0462,31,10,0.0015

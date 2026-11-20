@@ -1,0 +1,7 @@
+condition,train_seed,mean_x,std_x,placeholder_norm_x,clip,stage6_norm_x_p99,stage6_norm_x_max,frac_stage6_above_placeholder,stage6_obstacle_dist_median,stage6_obstacle_dist_p95,stage6_obstacle_dist_max
+sensing_only,0,1.715,4.254,2.418,5.0,-0.141,-0.106,0.0,0.814,1.225,1.485
+sensing_only,1,1.709,4.256,2.418,5.0,-0.144,-0.099,0.0,0.806,1.242,1.492
+sensing_only,2,1.711,4.255,2.418,5.0,-0.145,-0.102,0.0,0.765,1.212,1.495
+full,0,1.712,4.254,2.418,5.0,-0.145,-0.08,0.0,0.8,1.245,1.485
+full,1,1.713,4.254,2.418,5.0,-0.149,-0.117,0.0,0.788,1.295,1.697
+full,2,1.711,4.256,2.418,5.0,-0.148,-0.097,0.0,0.791,1.214,1.485

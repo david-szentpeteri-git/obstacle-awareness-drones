@@ -1,0 +1,21 @@
+pair,line,scope,n,success_a,success_b,gap,only_a,only_b,p
+goal-only,clear,stages 3-6,1242,91.3849,87.3591,4.0258,127,77,0.0006
+goal-only,clear,stage3_3s0d,309,92.8803,90.2913,2.589,25,17,0.28
+goal-only,clear,stage4_3s1d,366,95.082,89.3443,5.7377,34,13,0.0031
+goal-only,clear,stage5_5s2d,285,88.4211,84.2105,4.2105,32,20,0.1263
+goal-only,clear,stage6_6s3d,282,87.9433,84.7518,3.1915,36,27,0.3135
+goal-only,obstructed,stages 3-6,1158,67.4439,60.7945,6.6494,283,206,0.0006
+goal-only,obstructed,stage3_3s0d,291,71.8213,60.4811,11.3402,84,51,0.0057
+goal-only,obstructed,stage4_3s1d,234,65.3846,65.812,-0.4274,49,50,1.0
+goal-only,obstructed,stage5_5s2d,315,65.7143,61.5873,4.127,63,50,0.2589
+goal-only,obstructed,stage6_6s3d,318,66.6667,56.6038,10.0629,87,55,0.009
+shaped,clear,stages 3-6,1242,89.372,82.2866,7.0853,175,87,0.0
+shaped,clear,stage3_3s0d,309,90.6149,85.7605,4.8544,36,21,0.0627
+shaped,clear,stage4_3s1d,366,93.1694,86.3388,6.8306,42,17,0.0015
+shaped,clear,stage5_5s2d,285,86.6667,74.7368,11.9298,54,20,0.0001
+shaped,clear,stage6_6s3d,282,85.8156,80.8511,4.9645,43,29,0.1249
+shaped,obstructed,stages 3-6,1158,67.8756,62.6943,5.1813,278,218,0.008
+shaped,obstructed,stage3_3s0d,291,73.1959,65.9794,7.2165,66,45,0.0572
+shaped,obstructed,stage4_3s1d,234,69.2308,57.6923,11.5385,65,38,0.0101
+shaped,obstructed,stage5_5s2d,315,65.3968,58.4127,6.9841,82,60,0.0777
+shaped,obstructed,stage6_6s3d,318,64.4654,67.6101,-3.1447,65,75,0.447

@@ -1,0 +1,34 @@
+| mode          | pair      | scope      |    n |   success_a |   success_b |   gap |   only_a |   only_b |   p |
+|:--------------|:----------|:-----------|-----:|------------:|------------:|------:|---------:|---------:|----:|
+| deterministic | goal-only | stages 3-6 | 2400 |        79.8 |        74.5 |   5.3 |      410 |      283 | 0.0 |
+| deterministic | goal-only | stage 0    |  600 |        85.2 |        95.2 | -10.0 |       25 |       85 | 0.0 |
+| deterministic | goal-only | stage 1    |  600 |        85.3 |        86.8 |  -1.5 |       51 |       60 | 0.4 |
+| deterministic | goal-only | stage 2    |  600 |        87.5 |        83.3 |   4.2 |       71 |       46 | 0.0 |
+| deterministic | goal-only | stage 3    |  600 |        82.7 |        75.8 |   6.8 |      109 |       68 | 0.0 |
+| deterministic | goal-only | stage 4    |  600 |        83.5 |        80.2 |   3.3 |       83 |       63 | 0.1 |
+| deterministic | goal-only | stage 5    |  600 |        76.5 |        72.3 |   4.2 |       95 |       70 | 0.1 |
+| deterministic | goal-only | stage 6    |  600 |        76.7 |        69.8 |   6.8 |      123 |       82 | 0.0 |
+| deterministic | shaped    | stages 3-6 | 2400 |        79.0 |        72.8 |   6.2 |      453 |      305 | 0.0 |
+| deterministic | shaped    | stage 0    |  600 |        60.8 |        93.2 | -32.3 |       28 |      222 | 0.0 |
+| deterministic | shaped    | stage 1    |  600 |        82.2 |        85.0 |  -2.8 |       58 |       75 | 0.2 |
+| deterministic | shaped    | stage 2    |  600 |        85.8 |        82.0 |   3.8 |       83 |       60 | 0.1 |
+| deterministic | shaped    | stage 3    |  600 |        82.2 |        76.2 |   6.0 |      102 |       66 | 0.0 |
+| deterministic | shaped    | stage 4    |  600 |        83.8 |        75.2 |   8.7 |      107 |       55 | 0.0 |
+| deterministic | shaped    | stage 5    |  600 |        75.5 |        66.2 |   9.3 |      136 |       80 | 0.0 |
+| deterministic | shaped    | stage 6    |  600 |        74.5 |        73.8 |   0.7 |      108 |      104 | 0.8 |
+| sampled       | goal-only | stages 3-6 | 2400 |        61.9 |        60.7 |   1.2 |      534 |      505 | 0.4 |
+| sampled       | goal-only | stage 0    |  600 |        72.3 |        81.3 |  -9.0 |       86 |      140 | 0.0 |
+| sampled       | goal-only | stage 1    |  600 |        69.5 |        70.8 |  -1.3 |      113 |      121 | 0.6 |
+| sampled       | goal-only | stage 2    |  600 |        71.3 |        72.0 |  -0.7 |      111 |      115 | 0.8 |
+| sampled       | goal-only | stage 3    |  600 |        66.5 |        62.7 |   3.8 |      150 |      127 | 0.2 |
+| sampled       | goal-only | stage 4    |  600 |        65.5 |        67.8 |  -2.3 |      113 |      127 | 0.4 |
+| sampled       | goal-only | stage 5    |  600 |        58.3 |        54.3 |   4.0 |      148 |      124 | 0.2 |
+| sampled       | goal-only | stage 6    |  600 |        57.3 |        58.0 |  -0.7 |      123 |      127 | 0.8 |
+| sampled       | shaped    | stages 3-6 | 2400 |        68.9 |        63.2 |   5.7 |      552 |      415 | 0.0 |
+| sampled       | shaped    | stage 0    |  600 |        60.2 |        80.0 | -19.8 |       60 |      179 | 0.0 |
+| sampled       | shaped    | stage 1    |  600 |        70.2 |        72.8 |  -2.7 |      106 |      122 | 0.3 |
+| sampled       | shaped    | stage 2    |  600 |        78.3 |        70.2 |   8.2 |      134 |       85 | 0.0 |
+| sampled       | shaped    | stage 3    |  600 |        71.7 |        67.5 |   4.2 |      126 |      101 | 0.1 |
+| sampled       | shaped    | stage 4    |  600 |        73.3 |        65.8 |   7.5 |      134 |       89 | 0.0 |
+| sampled       | shaped    | stage 5    |  600 |        66.2 |        57.8 |   8.3 |      159 |      109 | 0.0 |
+| sampled       | shaped    | stage 6    |  600 |        64.3 |        61.5 |   2.8 |      133 |      116 | 0.3 |

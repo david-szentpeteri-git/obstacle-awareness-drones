@@ -1,0 +1,15 @@
+scenario,condition,success,crash,timeout
+stage0_0s0d,expert,100.0,0.0,0.0
+stage0_0s0d,straight,100.0,0.0,0.0
+stage1_1s0d,expert,99.5,0.5,0.0
+stage1_1s0d,straight,68.0,32.0,0.0
+stage2_2s0d,expert,99.5,0.5,0.0
+stage2_2s0d,straight,69.0,31.0,0.0
+stage3_3s0d,expert,98.5,1.5,0.0
+stage3_3s0d,straight,53.0,47.0,0.0
+stage4_3s1d,expert,100.0,0.0,0.0
+stage4_3s1d,straight,60.0,40.0,0.0
+stage5_5s2d,expert,98.5,1.5,0.0
+stage5_5s2d,straight,46.5,53.5,0.0
+stage6_6s3d,expert,97.0,3.0,0.0
+stage6_6s3d,straight,48.5,51.5,0.0

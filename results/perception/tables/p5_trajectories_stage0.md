@@ -1,0 +1,6 @@
+| model           |   episodes |   reached |   crashed |   timeout |   overshoot |   crash_floor |   crash_ceiling |   crash_side |   closest_to_goal_median_m |   reached_closest_median_m |
+|:----------------|-----------:|----------:|----------:|----------:|------------:|--------------:|----------------:|-------------:|---------------------------:|---------------------------:|
+| degenerate_s0   |         40 |        40 |         0 |         0 |           0 |             0 |               0 |            0 |                      nan   |                        0.6 |
+| full_s1         |         40 |        26 |         0 |        14 |           0 |             0 |               0 |            0 |                      nan   |                        0.6 |
+| full_s2         |         40 |        11 |        27 |         2 |          13 |             1 |               2 |           24 |                        1.0 |                        0.6 |
+| sensing_only_s2 |         40 |        27 |        11 |         2 |          10 |             0 |               1 |           10 |                        0.7 |                        0.6 |

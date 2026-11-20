@@ -1,0 +1,26 @@
+| wall_orientation   | visible     | condition    |   n |   success |   obstacle_hit |   boundary_hit |   timeout |
+|:-------------------|:------------|:-------------|----:|----------:|---------------:|---------------:|----------:|
+| diagonal           | not_visible | degenerate   | 519 |       2.5 |           94.6 |            2.9 |       0.0 |
+| diagonal           | not_visible | full         | 519 |       6.7 |           90.8 |            2.5 |       0.0 |
+| diagonal           | not_visible | reward_only  | 519 |       2.7 |           94.8 |            2.3 |       0.2 |
+| diagonal           | not_visible | sensing_only | 519 |       6.0 |           93.4 |            0.6 |       0.0 |
+| diagonal           | visible     | degenerate   | 690 |      12.6 |           84.2 |            3.0 |       0.1 |
+| diagonal           | visible     | full         | 690 |      23.8 |           69.1 |            5.8 |       1.3 |
+| diagonal           | visible     | reward_only  | 690 |      14.2 |           82.3 |            2.5 |       1.0 |
+| diagonal           | visible     | sensing_only | 690 |      22.2 |           74.5 |            3.3 |       0.0 |
+| horizontal         | not_visible | degenerate   | 480 |       8.5 |           89.0 |            2.5 |       0.0 |
+| horizontal         | not_visible | full         | 480 |      11.2 |           86.7 |            1.7 |       0.4 |
+| horizontal         | not_visible | reward_only  | 480 |       7.1 |           91.5 |            1.5 |       0.0 |
+| horizontal         | not_visible | sensing_only | 480 |      10.2 |           88.8 |            1.0 |       0.0 |
+| horizontal         | visible     | degenerate   | 750 |      18.7 |           76.8 |            4.4 |       0.1 |
+| horizontal         | visible     | full         | 750 |      33.7 |           60.8 |            4.0 |       1.5 |
+| horizontal         | visible     | reward_only  | 750 |      21.7 |           73.9 |            3.7 |       0.7 |
+| horizontal         | visible     | sensing_only | 750 |      31.6 |           66.3 |            2.1 |       0.0 |
+| vertical           | not_visible | degenerate   | 621 |       5.0 |           93.7 |            1.3 |       0.0 |
+| vertical           | not_visible | full         | 621 |       8.9 |           88.7 |            1.9 |       0.5 |
+| vertical           | not_visible | reward_only  | 621 |       4.5 |           93.6 |            1.6 |       0.3 |
+| vertical           | not_visible | sensing_only | 621 |       6.1 |           92.4 |            1.4 |       0.0 |
+| vertical           | visible     | degenerate   | 549 |       7.8 |           89.3 |            2.9 |       0.0 |
+| vertical           | visible     | full         | 549 |      10.9 |           86.2 |            2.7 |       0.2 |
+| vertical           | visible     | reward_only  | 549 |       8.9 |           87.6 |            2.7 |       0.7 |
+| vertical           | visible     | sensing_only | 549 |      11.7 |           86.5 |            1.6 |       0.2 |

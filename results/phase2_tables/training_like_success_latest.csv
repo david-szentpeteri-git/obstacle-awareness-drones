@@ -1,0 +1,8 @@
+scenario,degenerate,reward_only,sensing_only,full
+stage0_0s0d,98.2,98.3,25.7,6.2
+stage1_1s0d,81.5,81.2,80.0,76.0
+stage2_2s0d,82.8,79.3,81.7,73.5
+stage3_3s0d,72.8,71.3,73.2,71.5
+stage4_3s1d,75.3,76.3,77.8,74.7
+stage5_5s2d,67.7,63.2,70.8,65.0
+stage6_6s3d,67.7,68.8,69.7,69.3

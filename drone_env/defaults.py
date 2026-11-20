@@ -1,0 +1,125 @@
+# -*- coding: utf-8 -*-
+#PREEXISTS - 3D DRONE ENVIRONMENT CODE WRITTEN BEFORE THE CS5478 COURSE PROJECT
+"""
+This file defines DEFAULTS (constants) which is used throughout the entire project. This includes the coefficients for
+the reward function, specific distances/ speeds, LiDAR configurations and environment configurations.
+"""
+
+# =============================================================================
+# Default Observation Slices (Base Observation Vector)
+# =============================================================================
+POS_SLICE = slice(0, 3)  # position vector
+VEL_SLICE = slice(3, 6)  # velocity vector
+TARGET_SLICE = slice(6, 9)  # vector to target
+OBS_SLICE = slice(9, 12)  # vector to nearest obstacle
+CENTROID_SLICE = slice(12, 15)  # vector to nearest centroid
+TEAMMATE_SLICE = slice(15, 18)  # vector to nearest teammate
+
+# =============================================================================
+# Swarm Spawn
+# =============================================================================
+MAX_DRONES_PER_SWARM = 10 # max number of drones in a swarm
+
+SWARM_RADIUS = 0.8 # radius of swarm (AKA how far from the pre-defined swarm center can drones spawn)
+SWARM_EDGE_MARGIN = 1  # how far from environment border the swarm center is
+SWARM_MIN_SEPARATION = 0.25  # min distance between drones in the swarm
+
+# =============================================================================
+# Target
+# =============================================================================
+TARGET_RADIUS = 0.5 # actual radius of the goal
+TARGET_EDGE_MARGIN = 0.6  # minimum distance between the wall and the goal
+TARGET_REACH_DISTANCE = 0.6 # how close drone needs to be around goal to be a successful reach
+COLORS =  [
+    [0.0, 1.0, 0.0, 0.9],  # green
+    [0.0, 0.0, 1.0, 0.9],  # blue
+    [1.0, 1.0, 0.0, 0.9],  # yellow
+    [1.0, 0.0, 1.0, 0.9],  # magenta
+    [0.0, 1.0, 1.0, 0.9],  # cyan
+    [1.0, 0.5, 0.0, 0.9],  # orange
+    [0.5, 0.0, 1.0, 0.9],  # purple
+]
+GOAL_REACH_DISTANCE=0.1
+
+# =============================================================================
+# Swarm cohesion / separation
+# =============================================================================
+DEFAULT_SWARM_MAX_SEP = 5.0 # maximum allowed separation between 2 drones
+DEFAULT_SWARM_MIN_SEP = 0.25 # minimum allowed separation between 2 drones
+
+# =============================================================================
+# Obstacles
+# =============================================================================
+MIN_SPAWN_DIST_FROM_DRONE = 1.0 # minimum distance to spawn obstacle from drone
+SUPPORTED_SHAPES = ["box", "wall", "sphere", "cylinder"] # supported obstacle shapes
+
+# =============================================================================
+# LiDAR Configuration
+# =============================================================================
+#SIX GOAL-RELATIVE RAYS: (NAME, AZIMUTH DEG FROM "FRONT", ELEVATION DEG).
+#"FRONT" = HORIZONTAL DIRECTION TO THE GOAL (THE DRONE NEVER YAWS, SO A BODY-FRAME
+#FRONT WOULD ALWAYS POINT EAST). DIRECTIONS ARE BUILT IN training/wrappers/lidar_layout.py
+LIDAR_RAY_LAYOUT = (
+    ("front", 0.0, 0.0),
+    ("left", 90.0, 0.0),
+    ("back", 180.0, 0.0),
+    ("right", 270.0, 0.0),
+    ("front_up", 0.0, 15.0),
+    ("front_down", 0.0, -15.0),
+)
+LIDAR_RANGE = 6.0  # lookahead meters
+LIDAR_NOISE_STD = 0.0 # add Gaussian noise
+LIDAR_SHOW_RAYS_TRAIN = False # whether to display rays on GUI during training
+LIDAR_SHOW_RAYS_TEST = True # whether to display rays on GUI during testing
+
+# =============================================================================
+# Collision
+# =============================================================================
+COLLISION_DIST = 0.0 # distance between two objects to be considered a collision
+
+# =============================================================================
+# Reward (Per-step shaping)
+# =============================================================================
+PROG_COEF = 25  # reward coefficient for progressing closer to goal
+TIME_PEN = 0.03  # small time penalty each step (until drone reaches or collides)
+CNTRL_PEN = (
+    0.0  # penalty coefficient for large / aggressive actions (prevents jittering)
+)
+
+NEAR_OBS_PEN = 0.0  # penalty for being too close to an obstacle
+NEAR_FRONT_OBS_PEN = 0.0  # penalty for being too close to an obstacle in front of drone
+NEAR_SIDE_OBS_PEN = 0.0  # penalty for being too close to an obstacle on side of drone
+DIST_PEN = 0.03  # 0.15 # penalty coefficient for staying far from target (prevents drone not moving)
+ZERO_SPEED_PEN = 0.0  # penalty for drone not moving
+ALIGN_COEF = 0.05 # reward for being aligned with the direction of the target
+
+# =============================================================================
+# Reward (swarm shaping)
+# =============================================================================
+COHESION_PEN = 5.0  # penalty for when drones in swarm spread too far
+SEPARATION_PEN = 3.0  # penalty for when drones in swarm get too close
+
+# =============================================================================
+# Reward (terminal bonuses / penalties)
+# =============================================================================
+WALL_COLLISION_PEN = 50.0  # drone vs wall collision penalty
+OBSTACLE_COLLISION_PEN = 50.0  # drone vs obstacle collision penalty
+DRONE_COLLISION_PEN = 50.0  # drone vs drone collision penalty
+GOAL_BONUS = 250  # one-time bonus for reaching the goal
+TRUNC_PEN = 40  # penalty for if episode was truncated
+
+# =============================================================================
+# Reward (smoothness coefficients)
+# =============================================================================
+FINAL_MILE_R = 2.0
+FINAL_MILE_COEF = 1.0
+
+# =============================================================================
+# Avoid division by zero
+# =============================================================================
+eps = 1e-8
+
+# =============================================================================
+# Paths
+# =============================================================================
+MODELS_DIR = "models"

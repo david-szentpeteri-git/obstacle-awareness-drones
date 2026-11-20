@@ -1,0 +1,17 @@
+group,condition,success
+"scale 2, line blocked",degenerate,10.836083608360836
+"scale 2, line blocked",full,19.306930693069308
+"scale 2, line blocked",reward_only,14.026402640264028
+"scale 2, line blocked",sensing_only,18.646864686468646
+"scale 2, line clear",degenerate,83.41793570219966
+"scale 2, line clear",full,85.36379018612521
+"scale 2, line clear",reward_only,78.00338409475465
+"scale 2, line clear",sensing_only,90.77834179357022
+"scale 3, line blocked",degenerate,8.821887213847013
+"scale 3, line blocked",full,15.07537688442211
+"scale 3, line blocked",reward_only,7.314349525404802
+"scale 3, line blocked",sensing_only,13.009491903964266
+"scale 3, line clear",degenerate,74.60711331679074
+"scale 3, line clear",full,66.99751861042184
+"scale 3, line clear",reward_only,68.98263027295285
+"scale 3, line clear",sensing_only,82.21670802315964
